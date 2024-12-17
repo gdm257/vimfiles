@@ -27,6 +27,12 @@ Plug 'ojroques/vim-oscyank', {'branch': 'main'}
 call plug#end()
 
 
+" Key bindings
+" let mapleader = ','
+" let g:mapleader = ','
+" let mapleader = "\<space>"
+" let g:mapleader = "\<space>"
+
 " ojroques/vim-oscyank
 nmap <leader>c <Plug>OSCYankOperator
 nmap <leader>cc <leader>c_
