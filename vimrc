@@ -2,6 +2,10 @@ if has("win32") || has("win64")
   source ./defaults.vim
 endif
 
+set termencoding=utf-8
+set encoding=utf8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,euc-jp,cp932,sjis,euc-kr
+
 " Raw oscyank Start
 " autocmd TextYankPost * echo v:event
 " function! s:raw_echo(str)
