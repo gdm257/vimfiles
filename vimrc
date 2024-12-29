@@ -1,6 +1,7 @@
-if has("win32") || has("win64")
-  source ./defaults.vim
-endif
+" Enable this if backspace key can not be used
+" if has("win32") || has("win64")
+"   source ./defaults.vim
+" endif
 
 set termencoding=utf-8
 set encoding=utf8
