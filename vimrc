@@ -3,10 +3,12 @@
 "   source ./defaults.vim
 " endif
 
+set fileformat=unix
+set fileformats=unix,dos
+set jumpoptions=stack
 set termencoding=utf-8
 set encoding=utf8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,euc-jp,cp932,sjis,euc-kr
-set jumpoptions=stack
 language messages en_US.utf-8
 
 if has("win32") || has("win64")
